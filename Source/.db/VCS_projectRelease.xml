@@ -1,0 +1,80 @@
+<DATA>
+
+	<ROW>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<version>0.3</version>
+		<build>1</build>
+		<time>1431333648</time>
+		<title>B Store</title>
+		<description>Provides an interface for:
+- BOSS featured applications
+- BOSS application updates.
+
+*Categories and search are in working progress.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<version>0.4</version>
+		<build>1</build>
+		<time>1435836582</time>
+		<title>App Store</title>
+		<description>Updating project title and ico.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<version>0.5</version>
+		<build>1</build>
+		<time>1436184766</time>
+		<title>App Store</title>
+		<description>Minor bugs fixed in updates section for new versions of applications.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<version>0.6</version>
+		<build>1</build>
+		<time>1436373125</time>
+		<title>App Store</title>
+		<description>Remove unwanted containers with empty content.
+Minor layout changes in the updates section.
+More detailed application info viewer.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<version>0.6</version>
+		<build>2</build>
+		<time>1442184947</time>
+		<title>App Store</title>
+		<description>UI fixes.
+Update all applications button added in updates section.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<version>0.6</version>
+		<build>3</build>
+		<time>1445802995</time>
+		<title>App Store</title>
+		<description>Minor presentation updates.</description>
+	</ROW>
+
+	<ROW>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<version>0.7</version>
+		<build>1</build>
+		<time>1447600327</time>
+		<title>App Store</title>
+		<description>New section for identity apps added.
+Other minor fixes and performance improvements.</description>
+	</ROW>
+</DATA>

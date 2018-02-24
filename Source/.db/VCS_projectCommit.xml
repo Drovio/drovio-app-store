@@ -1,0 +1,110 @@
+<DATA>
+
+	<ROW>
+		<id>c1a9c72cf592b7b9b32aa3c3775988a1eedbbd558</id>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1430923887</time>
+		<author_id>1</author_id>
+		<summary>Initial application commit.</summary>
+		<description>Partial updates section created to list team applications.</description>
+		<tags>initial, updates</tags>
+	</ROW>
+
+	<ROW>
+		<id>c0fd7f6715b0a043e8dd3acd53062d50c4ec67fb7</id>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1431280306</time>
+		<author_id>1</author_id>
+		<summary>Initial commit for application details dialog.</summary>
+		<description>Update purchased application script created and working properly.</description>
+		<tags>applications, updates, details</tags>
+	</ROW>
+
+	<ROW>
+		<id>cfc78c0a97f9cd958a951c38e739b4ed5481fadf6</id>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1431333164</time>
+		<author_id>1</author_id>
+		<summary>Purchase dialog created.</summary>
+		<description>Application details for purchase updated to purchase or update according to application status.</description>
+		<tags>purchases</tags>
+	</ROW>
+
+	<ROW>
+		<id>ce1247d903325746bed8268fd364139a145034754</id>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1434478581</time>
+		<author_id>1</author_id>
+		<summary>Debugging SDK.</summary>
+		<description></description>
+		<tags>debug</tags>
+	</ROW>
+
+	<ROW>
+		<id>cd74edc09fc497e5602d934a79e4ca700b7b8e45c</id>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1436183181</time>
+		<author_id>1</author_id>
+		<summary>Featured section updated to separate private applications.</summary>
+		<description>Update section updated to present the correct application information for new versions.</description>
+		<tags>updates, private</tags>
+	</ROW>
+
+	<ROW>
+		<id>cf2199b7369ef67f0128cb307111d46047372e165</id>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1436372166</time>
+		<author_id>1</author_id>
+		<summary>Updating application info viewer, changed from dialog to normal container.</summary>
+		<description></description>
+		<tags>details, colors, layouts</tags>
+	</ROW>
+
+	<ROW>
+		<id>c0fbc217602cb5ce86b05838425365c83e330bfa2</id>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1442184902</time>
+		<author_id>1</author_id>
+		<summary>Update all applications button added to updates section. Reload app list after updating an app.</summary>
+		<description></description>
+		<tags>reload, update_all</tags>
+	</ROW>
+
+	<ROW>
+		<id>c2452515b23bd14a1f2d31247ccfe25e4f362748a</id>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1445802967</time>
+		<author_id>1</author_id>
+		<summary>Main view updated to annotate new updates in the menu and select the updates accordingly.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c00f7709dcef64a58c2955b131f3ca85a6152d0e3</id>
+		<project_id>64</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1447600148</time>
+		<author_id>1</author_id>
+		<summary>New identity section added. Filters some identity applications for now (hard-coded).</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+</DATA>
