@@ -1,0 +1,146 @@
+.bossAppDetailsContainer {
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	width: 800px;
+	background: #FFF;
+}
+.bossAppDetailsContainer .appDetails {
+	overflow: auto;
+}
+.bossAppDetailsContainer .appDetails {
+	.mainBody {
+		margin: 15px;
+	}
+	.header {
+		overflow: auto;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #CCC;
+	}
+	.header {
+		> .app_ico {
+			width: 150px;
+			height: 150px;
+			padding: 5px;
+			float: left;
+			margin-right: 20px;
+		}
+		> .app_ico img {
+			width: inherit;
+			height: inherit;
+		}
+		> .close_ico {
+			float: right;
+			width: 24px;
+			height: 24px;
+			background: url('%{media}/icons/closeX.svg');
+			background-size: cover;
+			background-position: 0px -24px;
+			cursor: pointer;
+		}
+		.title {
+			font-size: 22px;
+			line-height: 48px;
+			margin-top: 20px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			color: #555;
+		}
+		.version {
+			font-size: 12px;
+			color: #444;
+		}
+		.appStatus {
+			margin: 5px;
+		}
+		.appStatus .updated {
+			float: right;
+			padding: 3px 5px;
+			overflow: auto;
+			display: inline-block;
+			line-height: 19px;
+			color: green;
+			border: 1px solid #43B549;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+		}
+		.appStatus .updated .ico {
+			display: inline-block;
+			float: left;
+			width: 19px;
+			height: 19px;
+			margin-right: 5px;
+			background: url('%{media}/global/ui/notification.svg');
+			background-position: 0px 0px;
+			background-size: cover;
+		}
+		.appStatus:hover {
+			border-color: green;
+		}
+		.appStatus .button.control_button {
+			float: right;
+			display: block;
+			border: 1px solid #CCC;
+			color: #545454;
+			padding: 3px 20px;
+			line-height: 16px;
+			cursor: pointer;
+			width: auto;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			
+			background: linear-gradient(#BBE2B1, #B1DAA1);
+			background: -webkit-linear-gradient(#BBE2B1, #B1DAA1);
+			background: -moz-linear-gradient(#BBE2B1, #B1DAA1);
+			border-color: #43B549;
+		}
+	}
+	.body {
+		overflow: auto;
+		max-height: 300px;
+	}
+	.body {
+		.bd_section {
+			border-bottom: 1px solid #CCC;
+			padding: 10px 0px;
+		}
+		.bd_section:last-child {
+			border-bottom: none;
+		}
+		.bd_section {
+			.hd {
+				color: #555;
+				font-size: 12px;
+				margin: 5px 10px;
+			}
+			p {
+				color: #777;
+				line-height: 18px;
+				margin: 5px;
+			}
+			p.pre {
+				white-space: pre-wrap;
+			}
+		}
+	}
+	.footer {
+		width: 100%;
+		line-height: 16px;
+		padding: 2px 0px;
+		height: 21px;
+		text-align: center;
+		background: linear-gradient(#f2f2f2, #e2e2e2);
+		background: -webkit-linear-gradient(#f2f2f2, #e2e2e2);
+		background: -moz-linear-gradient(#f2f2f2, #e2e2e2);
+		border-top: 1px solid #e2e2e2;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		overflow: auto;
+		color: #777;
+	}
+}

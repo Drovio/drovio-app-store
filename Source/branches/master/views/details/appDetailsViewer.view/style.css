@@ -1,0 +1,172 @@
+.appDetailsViewerContainer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #F1F1F1;
+}
+.appDetailsViewer {
+	overflow: auto;
+}
+
+.appDetailsViewer .close_ico {
+	float: right;
+	width: 24px;
+	height: 24px;
+	background: url('%{media}/icons/closeX.svg');
+	background-size: cover;
+	background-position: 0px -24px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.appDetailsViewer .middleContainer {
+	min-width: 400px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 10px auto;
+	overflow: auto;
+}
+.appDetailsViewer .sidebar {
+	width: 20%;
+	float: left;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.appDetailsViewer .sidebar .appIcon {
+	width: 100%;
+	height: 100%;
+	max-width: 150px;
+	max-height: 150px;
+	margin: 0 auto;
+}
+
+.appDetailsViewer .sidebar .appIcon img {
+	width: inherit;
+	height: inherit;
+}
+
+.appDetailsViewer .sidebar .navitem {
+	display: block;
+	border: 1px solid #5E6570;
+	color: #5E6570;
+	padding: 6px 15px;
+	line-height: 16px;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 5px auto;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.appDetailsViewer .sidebar .navitem:hover, .appDetailsViewer .sidebar .navitem.selected {
+	background-color: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.appDetailsViewer .sidebar .navitem.action {
+	text-align: center;
+}
+
+.appDetailsViewer .sidebar .navitem.update {
+	background: #43B549;
+	border: 1px solid #43B549;
+	color: #FFF;
+}
+
+.appDetailsViewer .sidebar .navitem.update:hover {
+	background-color: #43B549;
+	border-color: #43B549;
+	color: #FFF;
+}
+
+.appDetailsViewer .sidebar .pnavigation {
+	list-style-type: none;
+	margin: 30px 0px;
+	padding: 0px;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+
+.appDetailsViewer .sidebar .navitem .ico {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: url('%{media}/icons/appIcons.svg') no-repeat center;
+	background-size: 32px 80px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.appDetailsViewer .sidebar .navitem.play .ico {
+	background-position: 0px 0px;
+}
+
+.appDetailsViewer .sidebar .navitem.about .ico {
+	background-position: 0px -16px;
+}
+
+.appDetailsViewer .sidebar .navitem.reviews .ico {
+	background-position: 0px -32px;
+}
+
+.appDetailsViewer .sidebar .navitem.changelog .ico {
+	background-position: 0px -48px;
+}
+
+.appDetailsViewer .sidebar .navitem.details .ico {
+	background-position: 0px -64px;
+}
+
+.appDetailsViewer .sidebar .navitem:hover .ico, .appDetailsViewer .sidebar .navitem.selected .ico {
+	background-position-x: -16px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.appDetailsViewer .mainbody {
+	width: 80%;
+	float: right;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.appDetailsViewer .mainbody .appTitle {
+	font-size: 28px;
+	line-height: 42px;
+	color: #5E6570;
+	margin-top: 30px;
+	padding: 0px 10px;
+	font-weight: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.appDetailsViewer .mainbody .sectionbody {
+	border: 1px solid #CCC;
+	background: #FFF;
+	padding: 10px;
+	min-height: 300px;
+	margin: 20px 0px;
+}

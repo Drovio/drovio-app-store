@@ -1,0 +1,91 @@
+.purchaseApplicationPermissions {
+	padding: 10px 20px;
+	max-width: 600px;
+}
+.purchaseApplicationPermissions {
+	.header {
+		overflow: auto;
+	}
+	.app_icon {
+		float: left;
+		width: 100px;
+		height: 100px;
+		margin-right: 20px;
+	}
+	.app_icon img {
+		width: inherit;
+		height: inherit;
+	}
+	.hd {
+		color: #555;
+	}
+	.appInfo .hd.app_title {
+		color: rgb(0, 97, 147);
+		font-size: 18px;
+		font-weight: normal;
+		margin: 0px;
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	.appInfo .hd.team_name,
+	.appInfo .hd.version {
+		color: #999;
+		margin: 3px 0px;
+		font-weight: normal;
+		font-size: 11px;
+	}
+	.permissions {
+		clear: both;
+		background: #EEE;
+		border: 1px solid #BBB;
+		padding: 10px;
+		margin-top: 25px;
+		max-height: 200px;
+	}
+	.permissions .hd {
+		font-weight: normal;
+		color: rgb(0, 97, 147);
+		margin: 0px;
+		margin-bottom: 15px;
+	}
+	.permissions .list {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	.permissions .list .pgi {
+		margin: 15px 0px;
+		overflow: auto;
+	}
+	.permissions .list .pgi:last-child {
+		margin-bottom: 0px;
+	}
+	.permissions .list .pgi .icon {
+		float: left;
+		width: 24px;
+		height: 24px;
+		margin-right: 10px;
+	}
+	.permissions .list .pgi .icon:empty {
+		background: url('%{media}/icons/default_permission_icon.svg') no-repeat center;
+		background-size: contain;
+	}
+	.permissions .list .pgi .icon img {
+		width: inherit;
+		height: inherit;
+	}
+	.permissions .list .pgi .mf_info {
+		margin-left: 34px;
+	}
+	.permissions .list .pgi .title {
+		font-size: 12px;
+		font-weight: bold;
+		color: #555;
+	}
+	.permissions .list .pgi .desc {
+		font-size: 11px;
+		line-height: 16px;
+		color: #777;
+		white-space: pre-wrap;
+	}
+}

@@ -1,0 +1,90 @@
+.bossMarketApplicationContainer,
+.bossMarket {
+	width: 100%;
+	height: 100%;
+}
+.bossMarket .navbar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	border-bottom: 1px solid #c5c5c5;
+	background: #e3e3e3;
+	height: 70px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.bossMarket .navbar .navmenu {
+	width: 320px;
+	margin: 5px auto;
+	list-style-type: none;
+	padding: 0px;
+	overflow: auto;
+}
+.bossMarket .navbar .navmenu .navitem {
+	width: 80px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+.bossMarket .navbar .navmenu .navitem .ico {
+	width: 32px;
+	height: 32px;
+	margin: 5px auto;
+	background: url('%{media}/icons/menu.svg') no-repeat;
+	background-size: 64px 128px;
+	background-position: 0px 0px;
+	opacity: 0.8;
+}
+.bossMarket .navbar .navmenu .navitem.selected .ico {
+	opacity: 1;
+}
+.bossMarket .navbar .navmenu .navitem.featured .ico{
+	background-position: 0px 0px;
+}
+.bossMarket .navbar .navmenu .navitem.selected.featured .ico,
+.bossMarket .navbar .navmenu .navitem.featured:hover .ico {
+	background-position: -32px 0px;
+}
+.bossMarket .navbar .navmenu .navitem.categories .ico {
+	background-position: 0px -32px;
+}
+.bossMarket .navbar .navmenu .navitem.selected.categories .ico,
+.bossMarket .navbar .navmenu .navitem.categories:hover .ico {
+	background-position: -32px -32px;
+}
+.bossMarket .navbar .navmenu .navitem.search .ico {
+	background-position: 0px -64px;
+}
+.bossMarket .navbar .navmenu .navitem.selected.search .ico,
+.bossMarket .navbar .navmenu .navitem.search:hover .ico {
+	background-position: -32px -64px;
+}
+.bossMarket .navbar .navmenu .navitem.updates .ico {
+	background-position: 0px -96px;
+}
+.bossMarket .navbar .navmenu .navitem.selected.updates .ico,
+.bossMarket .navbar .navmenu .navitem.updates:hover .ico {
+	background-position: -32px -96px;
+}
+.bossMarket .navbar .navmenu .navitem .title {
+	color: #555;
+	line-height: 18px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.bossMarket .sectionsContainer {
+	position: absolute;
+	top: 70px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+}
+.bossMarket .sectionsContainer:empty {
+	background: url('%{media}/icons/logo.svg') no-repeat center;
+	background-size: 150px;
+	opacity: 0.3;
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views><view name="MainView"/><folder name="sections"><view name="updatesSection"/><view name="featuredSection"/><view name="categoriesSection"/><view name="searchSection"></view></folder></views>

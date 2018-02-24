@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views><view name="MainView"/><folder name="sections"><view name="updatesSection"/><view name="featuredSection"/><view name="categoriesSection"/><folder name="updates"><view name="updateApplication"/><view name="updateAllApplications"/></folder><folder name="purchases"><view name="purchaseApplication"/></folder><view name="identitySection"/></folder><folder name="details"><view name="appDetailsViewer"/><view name="appInfo"/><view name="appReviews"/><view name="appChangelog"/><view name="appDetails"/></folder></views>

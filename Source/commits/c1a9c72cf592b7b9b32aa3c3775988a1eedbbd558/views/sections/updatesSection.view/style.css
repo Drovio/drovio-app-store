@@ -1,0 +1,73 @@
+.applicationUpdatesContainer,
+.bossAppList {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+.bossAppList {
+	padding: 0px 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.bossAppList .hd {
+	font-size: 13px;
+	font-weight: normal;
+	color: #555;
+	border-bottom: 1px solid #CCC;
+	padding: 5px 10px;
+	margin: 0px;
+}
+.bossAppList .hd.no_updates {
+	text-align: center;
+	margin: 30px 0px;
+	margin-top: 50px;
+	border: none;
+	color: #777;
+}
+.bossAppList .allApps .appContainer {
+	padding: 0px 10px;
+}
+.bossAppList .allApps .appContainer .app_tile {
+	padding: 10px;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+}
+.bossAppList .allApps .appContainer .app_tile .ico {
+	float: left;
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-right: 15px;
+}
+.bossAppList .allApps .appContainer .app_tile .ico img {
+	width: inherit;
+	height: inherit;
+}
+.bossAppList .allApps .appContainer .app_tile .app_info {
+	float: left;
+}
+.bossAppList .allApps .appContainer .app_tile .app_info .title {
+	font-weight: normal;
+	font-size: 12px;
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+	color: #555;
+}
+.bossAppList .allApps .appContainer .app_tile .app_info .info {
+	color: #999;
+	font-size: 10px;
+	margin: 3px 0px;
+}
+.bossAppList .allApps .appContainer .app_tile .changelog {
+	overflow: auto;
+	white-space: pre-wrap;
+	font-size: 11px;
+	line-height: 18px;
+	color: #777;
+	padding: 0px 25px;
+}
+.bossAppList .allApps .appContainer .app_tile.update .changelog {
+	padding-right: 70px;
+}
